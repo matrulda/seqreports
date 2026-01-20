@@ -4,7 +4,7 @@ jobs:
   run-tests:
     runs-on: ubuntu-22.04
     env:
-      NXF_VER: 21.04.1
+      NXF_VER: 25.10.2
       NXF_ANSI_LOG: false
     steps:
       - name: Check out repository code
